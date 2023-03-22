@@ -1,8 +1,9 @@
-/*
-
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
-*/
+.sticky {
+	position: fixed !important;
+	top: 30px;
+	/* left: 0;
+	right: 0; */
+	z-index: 1000; /* Adjust as necessary */
+	background-color: rgb(0, 0, 0); /* Adjust as necessary */
+	padding: 10px; /* Adjust as necessary */
+}
